@@ -1,16 +1,17 @@
 //
-//  01.h
+//  utils.h
 //  CSAPP
 //
 //  Created by DaiTianyu on 16/5/30.
 //  Copyright © 2016年 dtysky@outlook.com. All rights reserved.
 //
 
-#ifndef _1_h
-#define _1_h
+#ifndef utils_h
+#define utils_h
 
 #include <stdio.h>
+typedef char * byte_pointer;
 
-#endif /* _1_h */
+void show_bytes(byte_pointer start, int len);
 
-int test_fun();
+#endif /* utils_h */
