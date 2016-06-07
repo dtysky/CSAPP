@@ -9,6 +9,14 @@
 #include "5.h"
 #include "utils.h"
 
+void show_bytes(byte_pointer start, int len){
+    int i;
+    for(i = 0; i < len; i ++){
+        printf(" %.2x", start[i]);
+    }
+    printf("\n");
+}
+
 void main_c2_e5(){
     int val = 0x87654321;
     byte_pointer valp = (byte_pointer) &val;

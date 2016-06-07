@@ -10,6 +10,9 @@
 		98682CA11CFBECC600077BBF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CA01CFBECC600077BBF /* main.c */; };
 		98682CB01CFC3DDB00077BBF /* 5.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CAE1CFC3DDB00077BBF /* 5.c */; };
 		98682CB31CFC642A00077BBF /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CB11CFC642A00077BBF /* utils.c */; };
+		98682CCE1D06A7C600077BBF /* 10.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CCC1D06A7C600077BBF /* 10.c */; };
+		98682CD11D06AF5F00077BBF /* 11.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CCF1D06AF5F00077BBF /* 11.c */; };
+		98682CD41D06E2A300077BBF /* 15.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD21D06E2A300077BBF /* 15.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		98682CAF1CFC3DDB00077BBF /* 5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 5.h; path = Chapter2/5.h; sourceTree = "<group>"; };
 		98682CB11CFC642A00077BBF /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utils.c; path = Chapter2/utils.c; sourceTree = "<group>"; };
 		98682CB21CFC642A00077BBF /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = Chapter2/utils.h; sourceTree = "<group>"; };
+		98682CCC1D06A7C600077BBF /* 10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 10.c; path = Chapter2/10.c; sourceTree = "<group>"; };
+		98682CCD1D06A7C600077BBF /* 10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 10.h; path = Chapter2/10.h; sourceTree = "<group>"; };
+		98682CCF1D06AF5F00077BBF /* 11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 11.c; path = Chapter2/11.c; sourceTree = "<group>"; };
+		98682CD01D06AF5F00077BBF /* 11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 11.h; path = Chapter2/11.h; sourceTree = "<group>"; };
+		98682CD21D06E2A300077BBF /* 15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 15.c; path = Chapter2/15.c; sourceTree = "<group>"; };
+		98682CD31D06E2A300077BBF /* 15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 15.h; path = Chapter2/15.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 			children = (
 				98682CAE1CFC3DDB00077BBF /* 5.c */,
 				98682CAF1CFC3DDB00077BBF /* 5.h */,
+				98682CCC1D06A7C600077BBF /* 10.c */,
+				98682CCD1D06A7C600077BBF /* 10.h */,
+				98682CCF1D06AF5F00077BBF /* 11.c */,
+				98682CD01D06AF5F00077BBF /* 11.h */,
+				98682CD21D06E2A300077BBF /* 15.c */,
+				98682CD31D06E2A300077BBF /* 15.h */,
 				98682CB11CFC642A00077BBF /* utils.c */,
 				98682CB21CFC642A00077BBF /* utils.h */,
 			);
@@ -138,6 +153,9 @@
 			files = (
 				98682CB31CFC642A00077BBF /* utils.c in Sources */,
 				98682CB01CFC3DDB00077BBF /* 5.c in Sources */,
+				98682CCE1D06A7C600077BBF /* 10.c in Sources */,
+				98682CD41D06E2A300077BBF /* 15.c in Sources */,
+				98682CD11D06AF5F00077BBF /* 11.c in Sources */,
 				98682CA11CFBECC600077BBF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +275,7 @@
 				98682CA61CFBECC600077BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

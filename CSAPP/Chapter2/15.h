@@ -1,8 +1,8 @@
 //
-//  01.h
+//  15.h
 //  CSAPP
 //
-//  Created by DaiTianyu on 16/5/30.
+//  Created by DaiTianyu on 16/6/7.
 //  Copyright © 2016年 dtysky@outlook.com. All rights reserved.
 //
 
@@ -10,9 +10,9 @@
 #define _5_h
 
 #include <stdio.h>
+
 #include "utils.h"
 
-void main_c2_e5();
-void show_bytes(byte_pointer start, int len);
+void main_c2_e15();
 
 #endif /* _5_h */
