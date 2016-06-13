@@ -15,6 +15,7 @@
 		98682CD41D06E2A300077BBF /* 15.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD21D06E2A300077BBF /* 15.c */; };
 		98682CD71D0E8CFE00077BBF /* 25.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD51D0E8CFE00077BBF /* 25.c */; };
 		98682CDA1D0E92E000077BBF /* 26.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD81D0E92E000077BBF /* 26.c */; };
+		98682CDD1D0EB1F100077BBF /* 30.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CDB1D0EB1F100077BBF /* 30.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		98682CD61D0E8CFE00077BBF /* 25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 25.h; path = Chapter2/25.h; sourceTree = "<group>"; };
 		98682CD81D0E92E000077BBF /* 26.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 26.c; path = Chapter2/26.c; sourceTree = "<group>"; };
 		98682CD91D0E92E000077BBF /* 26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 26.h; path = Chapter2/26.h; sourceTree = "<group>"; };
+		98682CDB1D0EB1F100077BBF /* 30.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 30.c; path = Chapter2/30.c; sourceTree = "<group>"; };
+		98682CDC1D0EB1F100077BBF /* 30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 30.h; path = Chapter2/30.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				98682CD91D0E92E000077BBF /* 26.h */,
 				98682CB11CFC642A00077BBF /* utils.c */,
 				98682CB21CFC642A00077BBF /* utils.h */,
+				98682CDB1D0EB1F100077BBF /* 30.c */,
+				98682CDC1D0EB1F100077BBF /* 30.h */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				98682CD41D06E2A300077BBF /* 15.c in Sources */,
 				98682CDA1D0E92E000077BBF /* 26.c in Sources */,
 				98682CD11D06AF5F00077BBF /* 11.c in Sources */,
+				98682CDD1D0EB1F100077BBF /* 30.c in Sources */,
 				98682CA11CFBECC600077BBF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

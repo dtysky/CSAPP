@@ -7,13 +7,13 @@
 //
 
 #include <stdio.h>
-#include "Chapter2/26.h"
+#include "Chapter2/30.h"
 
 int main(int argc, const char * argv[]) {
     
-    char s[] = "4444";
-    char t[] = "55555";
-    main_c2_e26(s, t);
+    int x = -2147483648;
+//    int y = 2147483647;
+    printf("%d", -x);
     
     return 0;
 }
