@@ -7,7 +7,6 @@
 //
 
 #include "10.h"
-#include "utils.h"
 
 void inplace(int* x, int* y){
     *y = *x ^ *y;

@@ -7,8 +7,6 @@
 //
 
 #include "11.h"
-#include "utils.h"
-# include "10.h"
 
 void reverse_array_org(int a[], int cnt){
     int first, last;

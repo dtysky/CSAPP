@@ -13,6 +13,8 @@
 		98682CCE1D06A7C600077BBF /* 10.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CCC1D06A7C600077BBF /* 10.c */; };
 		98682CD11D06AF5F00077BBF /* 11.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CCF1D06AF5F00077BBF /* 11.c */; };
 		98682CD41D06E2A300077BBF /* 15.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD21D06E2A300077BBF /* 15.c */; };
+		98682CD71D0E8CFE00077BBF /* 25.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD51D0E8CFE00077BBF /* 25.c */; };
+		98682CDA1D0E92E000077BBF /* 26.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD81D0E92E000077BBF /* 26.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,10 @@
 		98682CD01D06AF5F00077BBF /* 11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 11.h; path = Chapter2/11.h; sourceTree = "<group>"; };
 		98682CD21D06E2A300077BBF /* 15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 15.c; path = Chapter2/15.c; sourceTree = "<group>"; };
 		98682CD31D06E2A300077BBF /* 15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 15.h; path = Chapter2/15.h; sourceTree = "<group>"; };
+		98682CD51D0E8CFE00077BBF /* 25.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 25.c; path = Chapter2/25.c; sourceTree = "<group>"; };
+		98682CD61D0E8CFE00077BBF /* 25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 25.h; path = Chapter2/25.h; sourceTree = "<group>"; };
+		98682CD81D0E92E000077BBF /* 26.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 26.c; path = Chapter2/26.c; sourceTree = "<group>"; };
+		98682CD91D0E92E000077BBF /* 26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 26.h; path = Chapter2/26.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				98682CD01D06AF5F00077BBF /* 11.h */,
 				98682CD21D06E2A300077BBF /* 15.c */,
 				98682CD31D06E2A300077BBF /* 15.h */,
+				98682CD51D0E8CFE00077BBF /* 25.c */,
+				98682CD61D0E8CFE00077BBF /* 25.h */,
+				98682CD81D0E92E000077BBF /* 26.c */,
+				98682CD91D0E92E000077BBF /* 26.h */,
 				98682CB11CFC642A00077BBF /* utils.c */,
 				98682CB21CFC642A00077BBF /* utils.h */,
 			);
@@ -151,10 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98682CD71D0E8CFE00077BBF /* 25.c in Sources */,
 				98682CB31CFC642A00077BBF /* utils.c in Sources */,
 				98682CB01CFC3DDB00077BBF /* 5.c in Sources */,
 				98682CCE1D06A7C600077BBF /* 10.c in Sources */,
 				98682CD41D06E2A300077BBF /* 15.c in Sources */,
+				98682CDA1D0E92E000077BBF /* 26.c in Sources */,
 				98682CD11D06AF5F00077BBF /* 11.c in Sources */,
 				98682CA11CFBECC600077BBF /* main.c in Sources */,
 			);

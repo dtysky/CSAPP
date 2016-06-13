@@ -11,6 +11,8 @@
 
 #include <stdio.h>
 
+#include "utils.h"
+
 void main_c2_e10();
 void inplace(int* x, int* y);
 

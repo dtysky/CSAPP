@@ -7,13 +7,13 @@
 //
 
 #include <stdio.h>
-#include "Chapter2/15.h"
+#include "Chapter2/26.h"
 
 int main(int argc, const char * argv[]) {
     
-    int x = -111;
-    unsigned int y = (unsigned int)x;
-    printf("%u", y);
+    char s[] = "4444";
+    char t[] = "55555";
+    main_c2_e26(s, t);
     
     return 0;
 }

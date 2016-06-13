@@ -7,7 +7,6 @@
 //
 
 #include "5.h"
-#include "utils.h"
 
 void show_bytes(byte_pointer start, int len){
     int i;

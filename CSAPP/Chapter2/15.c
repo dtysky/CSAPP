@@ -7,7 +7,6 @@
 //
 
 #include "15.h"
-#include "utils.h"
 
 void main_c2_e15(int x, int y){
     int res = !(x ^ y);
