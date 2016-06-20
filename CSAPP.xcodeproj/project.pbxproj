@@ -16,6 +16,7 @@
 		98682CD71D0E8CFE00077BBF /* 25.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD51D0E8CFE00077BBF /* 25.c */; };
 		98682CDA1D0E92E000077BBF /* 26.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CD81D0E92E000077BBF /* 26.c */; };
 		98682CDD1D0EB1F100077BBF /* 30.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CDB1D0EB1F100077BBF /* 30.c */; };
+		98682CE01D17FAAA00077BBF /* 36.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CDE1D17FAAA00077BBF /* 36.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		98682CD91D0E92E000077BBF /* 26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 26.h; path = Chapter2/26.h; sourceTree = "<group>"; };
 		98682CDB1D0EB1F100077BBF /* 30.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 30.c; path = Chapter2/30.c; sourceTree = "<group>"; };
 		98682CDC1D0EB1F100077BBF /* 30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 30.h; path = Chapter2/30.h; sourceTree = "<group>"; };
+		98682CDE1D17FAAA00077BBF /* 36.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 36.c; path = Chapter2/36.c; sourceTree = "<group>"; };
+		98682CDF1D17FAAA00077BBF /* 36.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 36.h; path = Chapter2/36.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				98682CB21CFC642A00077BBF /* utils.h */,
 				98682CDB1D0EB1F100077BBF /* 30.c */,
 				98682CDC1D0EB1F100077BBF /* 30.h */,
+				98682CDE1D17FAAA00077BBF /* 36.c */,
+				98682CDF1D17FAAA00077BBF /* 36.h */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98682CE01D17FAAA00077BBF /* 36.c in Sources */,
 				98682CD71D0E8CFE00077BBF /* 25.c in Sources */,
 				98682CB31CFC642A00077BBF /* utils.c in Sources */,
 				98682CB01CFC3DDB00077BBF /* 5.c in Sources */,

@@ -7,13 +7,11 @@
 //
 
 #include <stdio.h>
-#include "Chapter2/30.h"
+#include "Chapter2/36.h"
 
 int main(int argc, const char * argv[]) {
+    printf("%d", INT_MIN);
     
-    int x = -2147483648;
-//    int y = 2147483647;
-    printf("%d", -x);
-    
+    main_c2_e36(INT_MIN, INT_MIN);
     return 0;
 }
