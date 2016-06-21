@@ -7,11 +7,12 @@
 //
 
 #include <stdio.h>
-#include "Chapter2/36.h"
+#include "Chapter2/42.h"
 
 int main(int argc, const char * argv[]) {
-    printf("%d", INT_MIN);
     
-    main_c2_e36(INT_MIN, INT_MIN);
+    int x = -1;
+    int ux = (unsigned)x;
+    printf("%d", x + x == ux + ux);
     return 0;
 }
