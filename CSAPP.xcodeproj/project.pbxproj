@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9825E9001D2A0B9E00BEDC6B /* 38.c in Sources */ = {isa = PBXBuildFile; fileRef = 9825E8FE1D2A0B9E00BEDC6B /* 38.c */; };
 		98682CA11CFBECC600077BBF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CA01CFBECC600077BBF /* main.c */; };
 		98682CB01CFC3DDB00077BBF /* 5.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CAE1CFC3DDB00077BBF /* 5.c */; };
 		98682CB31CFC642A00077BBF /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 98682CB11CFC642A00077BBF /* utils.c */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9825E8FE1D2A0B9E00BEDC6B /* 38.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 38.c; path = Chapter3/38.c; sourceTree = "<group>"; };
+		9825E8FF1D2A0B9E00BEDC6B /* 38.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 38.h; path = Chapter3/38.h; sourceTree = "<group>"; };
 		98682C9D1CFBECC600077BBF /* CSAPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSAPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		98682CA01CFBECC600077BBF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		98682CAE1CFC3DDB00077BBF /* 5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 5.c; path = Chapter2/5.c; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9825E8FD1D2A0B8700BEDC6B /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				9825E8FE1D2A0B9E00BEDC6B /* 38.c */,
+				9825E8FF1D2A0B9E00BEDC6B /* 38.h */,
+			);
+			name = Chapter3;
+			sourceTree = "<group>";
+		};
 		98682C941CFBECC600077BBF = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		98682C9F1CFBECC600077BBF /* CSAPP */ = {
 			isa = PBXGroup;
 			children = (
+				9825E8FD1D2A0B8700BEDC6B /* Chapter3 */,
 				98682CAA1CFBED1D00077BBF /* Chapter2 */,
 				98682CA01CFBECC600077BBF /* main.c */,
 			);
@@ -184,6 +197,7 @@
 				98682CD41D06E2A300077BBF /* 15.c in Sources */,
 				98682CDA1D0E92E000077BBF /* 26.c in Sources */,
 				98682CD11D06AF5F00077BBF /* 11.c in Sources */,
+				9825E9001D2A0B9E00BEDC6B /* 38.c in Sources */,
 				98682CDD1D0EB1F100077BBF /* 30.c in Sources */,
 				98682CE31D18DAEB00077BBF /* 42.c in Sources */,
 				98682CA11CFBECC600077BBF /* main.c in Sources */,

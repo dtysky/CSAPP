@@ -7,12 +7,10 @@
 //
 
 #include <stdio.h>
-#include "Chapter2/42.h"
+#include "Chapter3/38.h"
 
 int main(int argc, const char * argv[]) {
     
-    int x = -1;
-    int ux = (unsigned)x;
-    printf("%d", x + x == ux + ux);
-    return 0;
+    fix_matrix A;
+    main_c3_38(A, 1);
 }
